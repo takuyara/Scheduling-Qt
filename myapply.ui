@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myapply</class>
+ <widget class="QWidget" name="myapply">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="MyAppliedWESALON">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>351</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>我申请的WESALON</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="ApplyTable">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>130</y>
+     <width>881</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>活动ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>活动名字</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>举办人</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>开始时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>结束时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>活动状态</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>活动地点</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>活动容量</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>已加入人数</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="CancelButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>600</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消活动</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FlushButton">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>600</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

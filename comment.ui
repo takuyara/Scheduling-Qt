@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>comment</class>
+ <widget class="QWidget" name="comment">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="COMMENT">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>20</y>
+     <width>351</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>评论天地</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="CommentTable">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>130</y>
+     <width>881</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>评论ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>活动ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>活动名字</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>活动状态</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>评论人ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>评论内容</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>评论时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>操作</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="CommentButton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>590</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>评论</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FlushButton">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>590</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

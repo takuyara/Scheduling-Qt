@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>display</class>
+ <widget class="QWidget" name="display">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>680</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="AllWESALON">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>10</y>
+     <width>311</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>所有WESALON</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="WESALONTable">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>901</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>活动ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>活动名字</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>举办人</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>开始时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>结束时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>活动状态</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>活动地点</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>活动容量</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>已加入人数</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>申请参加</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="ApplyWESALON">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>580</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>申请活动</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="SortEdit">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>580</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>按活动ID(ASC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按活动ID(DESC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按活动名字(ASC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按活动名字(DESC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按举办人(ASC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按举办人(DESC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按开始时间(ASC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按开始时间(DESC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按结束时间(ASC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按结束时间(DESC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按活动状态(ASC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按活动状态(DESC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按活动地点(ASC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按活动地点(DESC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按活动容量(ASC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按活动容量(DESC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按已加入人数(ASC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>按已加入人数(DESC)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="SortLabel">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>590</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>排序条件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FlushButton">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>580</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Flush_Tip">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>630</y>
+     <width>311</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选取排序条件之后点击刷新获取最新活动列表</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="IDMessage">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>40</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="FilterLabel">
+   <property name="geometry">
+    <rect>
+     <x>431</x>
+     <y>50</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>筛选关键词</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="FilterWord">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>40</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SearchButton">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>50</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
